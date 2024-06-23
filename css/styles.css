@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+}
+
+.search-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 80%;
+}
+
+.search-icon {
+    fill: #717171;
+    margin-right: 10px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.main-nav li {
+    margin: 0 10px;
+    padding: 5px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+/* Category Tabs Styles */
+.category-tabs {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.category-tabs div {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #717171;
+}
+
+/* Featured Listing Card Styles */
+.featured-listings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.listing-card {
+    width: 90%;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.listing-card img {
+    width: 100%;
+    height: auto;
+}
+
+.listing-card h3, .listing-card p {
+    margin: 10px;
+}
+
+/* Featured Listings Carousel Styles */
+.carousel {
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+}
+
+.carousel .listing-card {
+    flex: 0 0 80%;
+    margin-right: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f7f7f7;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer nav li {
+    padding: 5px;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
