@@ -26,17 +26,17 @@ header {
     align-items: center;
     background-color: #fff;
     border: 1px solid #ddd;
-    border-radius: 50px; /* Increased border-radius for a more rounded look */
-    padding: 10px 20px; /* Adjust padding to ensure proper spacing */
+    border-radius: 50px; 
+    padding: 10px 20px; 
     width: 80%;
     max-width: 600px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .search-icon {
-    color: #000; /* Black icon */
-    font-size: 24px; /* Adjust the size for better visibility */
-    margin-right: 15px; /* Increase the margin for better spacing */
+    color: #000; 
+    font-size: 24px; 
+    margin-right: 15px; 
 }
 
 .search-text {
@@ -55,7 +55,7 @@ header {
 }
 
 .main-nav ul {
-    display: none; /* Hide the main navigation as per your request */
+    display: none; 
     list-style-type: none;
     padding: 0;
     margin: 10px 0 0 0;
@@ -82,11 +82,11 @@ header {
 }
 
 .scroll-container {
-    display: inline-flex; /* Use inline-flex to allow horizontal scrolling */
+    display: inline-flex; 
 }
 
 .category-item {
-    flex: 0 0 auto; /* Prevent items from shrinking */
+    flex: 0 0 auto; 
     padding: 10px;
     cursor: pointer;
     font-size: 14px;
@@ -126,18 +126,18 @@ footer {
     background-color: #f7f7f7;
     padding: 10px 0;
     border-top: 1px solid #ddd;
+    text-align: center; 
 }
 
 footer nav ul {
-    display: flex;
-    justify-content: space-around;
+    display: inline-flex; 
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
 footer nav li {
-    padding: 5px;
+    padding: 5px 15px; 
 }
 
 footer nav a {
