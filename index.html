@@ -6,12 +6,13 @@
     <title>Airbnb</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="search-container">
             <div class="search-bar">
-                <i class="fas fa-search search-icon"></i>
+                <i class="material-icons search-icon">search</i>
                 <div class="search-text">
                     <span class="search-placeholder">Where to?</span>
                     <span class="search-subtext">Anywhere · Any week · Add guests</span>
@@ -21,68 +22,254 @@
     </header>
     <section class="category-tabs">
         <div class="scroll-container">
-            <div class="category-item">Icons</div>
-            <div class="category-item">Cabins</div>
-            <div class="category-item">Amazing pools</div>
-            <div class="category-item">OMG!</div>
-            <div class="category-item">Shepherd's huts</div>
-            <div class="category-item">Earth homes</div>
-            <div class="category-item">Beachfront</div>
-            <div class="category-item">Amazing views</div>
-            <div class="category-item">National parks</div>
-            <div class="category-item">Off-the-grid</div>
-            <div class="category-item">Mansions</div>
-            <div class="category-item">Castles</div>
-            <div class="category-item">Farms</div>
-            <div class="category-item">Countryside</div>
-            <div class="category-item">Tiny homes</div>
-            <div class="category-item">Treehouses</div>
-            <div class="category-item">Trending</div>
-            <div class="category-item">Lakefront</div>
-            <div class="category-item">Camping</div>
-            <div class="category-item">Islands</div>
-            <div class="category-item">Tropical</div>
-            <div class="category-item">Boats</div>
-            <div class="category-item">Design</div>
-            <div class="category-item">Luxe</div>
-            <div class="category-item">Lake</div>
-            <div class="category-item">Houseboats</div>
-            <div class="category-item">Top cities</div>
-            <div class="category-item">Historical homes</div>
-            <div class="category-item">Caves</div>
-            <div class="category-item">Barns</div>
-            <div class="category-item">Play</div>
-            <div class="category-item">Towers</div>
-            <div class="category-item">Yurts</div>
-            <div class="category-item">Vineyards</div>
-            <div class="category-item">Bed & breakfasts</div>
-            <div class="category-item">Creative spaces</div>
-            <div class="category-item">Containers</div>
-            <div class="category-item">Windmills</div>
-            <div class="category-item">Top of the world</div>
-            <div class="category-item">Domes</div>
-            <div class="category-item">Cycladic homes</div>
-            <div class="category-item">Golfing</div>
-            <div class="category-item">New</div>
-            <div class="category-item">Rooms</div>
-            <div class="category-item">Adapted</div>
-            <div class="category-item">Surfing</div>
-            <div class="category-item">Grand pianos</div>
-            <div class="category-item">Chef's kitchens</div>
-            <div class="category-item">Arctic</div>
-            <div class="category-item">Ski-in/out</div>
-            <div class="category-item">A-frames</div>
-            <div class="category-item">Ryokans</div>
-            <div class="category-item">Trulli</div>
-            <div class="category-item">Desert</div>
-            <div class="category-item">Casas particulares</div>
-            <div class="category-item">Riads</div>
-            <div class="category-item">Dammusi</div>
-            <div class="category-item">Skiing</div>
-            <div class="category-item">Minsus</div>
-            <div class="category-item">Hanoks</div>
-            <div class="category-item">Camper vans</div>
-            <div class="category-item">Beach</div>
+            <div class="category-item" id="icons-category">
+                <img src="images/icons.jpg" alt="Icons">
+                <span>Icons</span>
+            </div>
+            <div class="category-item">
+                <img src="images/cabins.jpg" alt="Cabins">
+                <span>Cabins</span>
+            </div>
+            <div class="category-item">
+                <img src="images/amazingpools.jpeg" alt="Amazing pools">
+                <span>Amazing pools</span>
+            </div>
+            <div class="category-item">
+                <img src="images/OMG!.jpg" alt="OMG!">
+                <span>OMG!</span>
+            </div>
+            <div class="category-item">
+                <img src="images/shepherd'shuts.jpg" alt="Shepherd's huts">
+                <span>Shepherd's huts</span>
+            </div>
+            <div class="category-item">
+                <img src="images/earthhomes.jpg" alt="Earth homes">
+                <span>Earth homes</span>
+            </div>
+            <div class="category-item">
+                <img src="images/beachfront.jpg" alt="Beachfront">
+                <span>Beachfront</span>
+            </div>
+            <div class="category-item">
+                <img src="images/Amazingviews.jpg" alt="Amazing views">
+                <span>Amazing views</span>
+            </div>
+            <div class="category-item">
+                <img src="images/Nationalparks.jpg" alt="National parks">
+                <span>National parks</span>
+            </div>
+            <div class="category-item">
+                <img src="images/off-the-grid.jpg" alt="Off-the-grid">
+                <span>Off-the-grid</span>
+            </div>
+            <div class="category-item">
+                <img src="images/mansions.jpg" alt="Mansions">
+                <span>Mansions</span>
+            </div>
+            <div class="category-item">
+                <img src="images/castles.jpg" alt="Castles">
+                <span>Castles</span>
+            </div>
+            <div class="category-item">
+                <img src="images/farms.jpg" alt="Farms">
+                <span>Farms</span>
+            </div>
+            <div class="category-item">
+                <img src="images/countryside.jpg" alt="Countryside">
+                <span>Countryside</span>
+            </div>
+            <div class="category-item">
+                <img src="images/tinyhomes.jpg" alt="Tiny homes">
+                <span>Tiny homes</span>
+            </div>
+            <div class="category-item">
+                <img src="images/treehouses.jpg" alt="Treehouses">
+                <span>Treehouses</span>
+            </div>
+            <div class="category-item">
+                <img src="images/trending.jpg" alt="Trending">
+                <span>Trending</span>
+            </div>
+            <div class="category-item">
+                <img src="images/lakefront.jpg" alt="Lakefront">
+                <span>Lakefront</span>
+            </div>
+            <div class="category-item">
+                <img src="images/camping.jpg" alt="Camping">
+                <span>Camping</span>
+            </div>
+            <div class="category-item">
+                <img src="images/islands.jpg" alt="Islands">
+                <span>Islands</span>
+            </div>
+            <div class="category-item">
+                <img src="images/tropical.jpg" alt="Tropical">
+                <span>Tropical</span>
+            </div>
+            <div class="category-item">
+                <img src="images/boats.jpg" alt="Boats">
+                <span>Boats</span>
+            </div>
+            <div class="category-item">
+                <img src="images/design.jpg" alt="Design">
+                <span>Design</span>
+            </div>
+            <div class="category-item">
+                <img src="images/luxe.jpg" alt="Luxe">
+                <span>Luxe</span>
+            </div>
+            <div class="category-item">
+                <img src="images/lake.jpg" alt="Lake">
+                <span>Lake</span>
+            </div>
+            <div class="category-item">
+                <img src="images/houseboats.jpg" alt="Houseboats">
+                <span>Houseboats</span>
+            </div>
+            <div class="category-item">
+                <img src="images/topcities.jpg" alt="Top cities">
+                <span>Top cities</span>
+            </div>
+            <div class="category-item">
+                <img src="images/historicalhomes.jpg" alt="Historical homes">
+                <span>Historical homes</span>
+            </div>
+            <div class="category-item">
+                <img src="images/caves.jpg" alt="Caves">
+                <span>Caves</span>
+            </div>
+            <div class="category-item">
+                <img src="images/barns.jpg" alt="Barns">
+                <span>Barns</span>
+            </div>
+            <div class="category-item">
+                <img src="images/play.jpg" alt="Play">
+                <span>Play</span>
+            </div>
+            <div class="category-item">
+                <img src="images/towers.jpg" alt="Towers">
+                <span>Towers</span>
+            </div>
+            <div class="category-item">
+                <img src="images/yurts.jpg" alt="Yurts">
+                <span>Yurts</span>
+            </div>
+            <div class="category-item">
+                <img src="images/vineyards.jpg" alt="Vineyards">
+                <span>Vineyards</span>
+            </div>
+            <div class="category-item">
+                <img src="images/bed&breakfasts.jpg" alt="Bed & Breakfasts">
+                <span>Bed & Breakfasts</span>
+            </div>
+            <div class="category-item">
+                <img src="images/creativespaces.jpg" alt="Creative spaces">
+                <span>Creative spaces</span>
+            </div>
+            <div class="category-item">
+                <img src="images/containers.jpg" alt="Containers">
+                <span>Containers</span>
+            </div>
+            <div class="category-item">
+                <img src="images/windmills.jpg" alt="Widmills">
+                <span>Widmills</span>
+            </div>
+            <div class="category-item">
+                <img src="images/topoftheworld.jpg" alt="Top of the world">
+                <span>Top of the world</span>
+            </div>
+            <div class="category-item">
+                <img src="images/dormes.jpg" alt="Domes">
+                <span>Domes</span>
+            </div>
+            <div class="category-item">
+                <img src="images/cycladichomes.jpg" alt="Cycladic homes">
+                <span>Cycladic homes</span>
+            </div>
+            <div class="category-item">
+                <img src="images/golfing.jpg" alt="Golfing">
+                <span>Golfing</span>
+            </div>
+            <div class="category-item">
+                <img src="images/new.jpg" alt="New">
+                <span>New</span>
+            </div>
+            <div class="category-item">
+                <img src="images/rooms.jpg" alt="Rooms">
+                <span>Rooms</span>
+            </div>
+            <div class="category-item">
+                <img src="images/adapted.jpg" alt="Adapted">
+                <span>Adapted</span>
+            </div>
+            <div class="category-item">
+                <img src="images/surfing.jpg" alt="Surfing">
+                <span>Surfing</span>
+            </div>
+            <div class="category-item">
+                <img src="images/grandpianos.jpg" alt="Grand pianos">
+                <span>Grand pianos</span>
+            </div>
+            <div class="category-item">
+                <img src="images/chef'skitchens.jpg" alt="Chef's kitchens">
+                <span>Chef's kitchens</span>
+            </div>
+            <div class="category-item">
+                <img src="images/arctic.jpg" alt="Arctic">
+                <span>Arctic</span>
+            </div>
+            <div class="category-item">
+                <img src="images/ski-in:out.jpg" alt="Ski-in/out">
+                <span>Ski-in/out</span>
+            </div>
+            <div class="category-item">
+                <img src="images/a-frames.jpg" alt="A-frames">
+                <span>A-frames</span>
+            </div>
+            <div class="category-item">
+                <img src="images/ryokans.jpg" alt="Ryokans">
+                <span>Ryokans</span>
+            </div>
+            <div class="category-item">
+                <img src="images/trulli.jpg" alt="Trulli">
+                <span>Trulli</span>
+            </div>
+            <div class="category-item">
+                <img src="images/desert.jpg" alt="Desert">
+                <span>Desert</span>
+            </div>
+            <div class="category-item">
+                <img src="images/casasparticulares.jpg" alt="Casas particulares">
+                <span>Casas particulares</span>
+            </div>
+            <div class="category-item">
+                <img src="images/riads.jpg" alt="Riads">
+                <span>Riads</span>
+            </div>
+            <div class="category-item">
+                <img src="images/dammusi.jpg" alt="Dammusi">
+                <span>Dammusi</span>
+            </div>
+            <div class="category-item">
+                <img src="images/skiing.jpg" alt="Skiing">
+                <span>Skiing</span>
+            </div>
+            <div class="category-item">
+                <img src="images/minsus.jpg" alt="Minsus">
+                <span>Minsus</span>
+            </div>
+            <div class="category-item">
+                <img src="images/hanoks.jpg" alt="Hanoks">
+                <span>Hanoks</span>
+            </div>
+            <div class="category-item">
+                <img src="images/campervans.jpg" alt="Camper vans">
+                <span>Camper vans</span>
+            </div>
+            <div class="category-item">
+                <img src="images/beach.jpg" alt="Beach">
+                <span>Beach</span>
+            </div>
         </div>
     </section>
     <section class="featured-listings">
@@ -93,7 +280,7 @@
                 <p>Hosted by Joy</p>
                 <p>Sold out</p>
             </div>
-            <!-- Add more listing cards as needed -->
+            <!-- Card grids -->
         </div>
     </section>
     <footer>

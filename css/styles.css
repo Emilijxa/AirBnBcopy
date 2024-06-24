@@ -9,16 +9,16 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
-    background-color: #f7f7f7;
-    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+    background-color: white;
 }
 
 .search-container {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 5px 0;
+    margin-bottom: 0;
 }
 
 .search-bar {
@@ -33,10 +33,12 @@ header {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.search-icon {
+.material-icons.search-icon {
     color: #000; 
-    font-size: 24px; 
-    margin-right: 15px; 
+    font-size: 36px; 
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
 }
 
 .search-text {
@@ -45,13 +47,14 @@ header {
 }
 
 .search-placeholder {
-    font-weight: bold;
+    font-weight: normal;
     color: #000;
 }
 
 .search-subtext {
     color: #717171;
     font-size: 14px;
+    font-weight: normal;
 }
 
 .main-nav ul {
@@ -77,20 +80,59 @@ header {
     overflow-x: auto;
     white-space: nowrap;
     background-color: white;
-    padding: 10px;
+    padding: 0;
     border-bottom: 1px solid #ddd;
+    margin-top: 0;
 }
 
 .scroll-container {
     display: inline-flex; 
+    padding: 0;
 }
 
 .category-item {
     flex: 0 0 auto; 
-    padding: 10px;
+    padding: 10px 20px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 13px;
     color: #717171;
+    text-align: center; 
+}
+
+.category-item i {
+    display: block; 
+    font-size: 24px; 
+    margin-bottom: 5px; 
+}
+
+.category-item img {
+    display: block; 
+    width: 26px; 
+    height: 24px; 
+    margin: 0 auto 5px auto; 
+}
+
+/* Styles for the Icons Category */
+#icons-category img {
+    width: 32px; 
+}
+
+#icons-category span {
+    color: #000; 
+    position: relative;
+}
+
+#icons-category span::after {
+    content: ''; 
+    display: block; 
+    width: 30px; 
+    height: 2px; 
+    background-color: #000; 
+    margin: 5px auto 0 auto; 
+    position: absolute; 
+    bottom: -10px; 
+    left: 50%;
+    transform: translateX(-50%); 
 }
 
 /* Featured Listing Card Styles */
