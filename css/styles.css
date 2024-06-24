@@ -26,25 +26,37 @@ header {
     align-items: center;
     background-color: #fff;
     border: 1px solid #ddd;
-    border-radius: 20px;
-    padding: 5px 10px;
+    border-radius: 50px; /* Increased border-radius for a more rounded look */
+    padding: 10px 20px; /* Adjust padding to ensure proper spacing */
     width: 80%;
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .search-icon {
-    fill: #717171;
-    margin-right: 10px;
+    fill: #000; /* Black icon */
+    width: 24px; /* Adjust the width for better visibility */
+    height: 24px; /* Adjust the height for better visibility */
+    margin-right: 15px; /* Increase the margin for better spacing */
 }
 
-.search-input {
-    border: none;
-    outline: none;
-    width: 100%;
-    font-size: 16px;
+.search-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-placeholder {
+    font-weight: bold;
+    color: #000;
+}
+
+.search-subtext {
+    color: #717171;
+    font-size: 14px;
 }
 
 .main-nav ul {
-    display: flex;
+    display: none; /* Hide the main navigation as per your request */
     list-style-type: none;
     padding: 0;
     margin: 10px 0 0 0;
@@ -63,14 +75,20 @@ header {
 
 /* Category Tabs Styles */
 .category-tabs {
-    display: flex;
-    justify-content: space-around;
+    overflow-x: auto;
+    white-space: nowrap;
     background-color: white;
     padding: 10px;
     border-bottom: 1px solid #ddd;
+    position: relative; /* Ensure the category tabs stay at the top */
 }
 
-.category-tabs div {
+.scroll-container {
+    display: inline-block;
+}
+
+.category-item {
+    display: inline-block;
     padding: 10px;
     cursor: pointer;
     font-size: 14px;
@@ -80,18 +98,20 @@ header {
 /* Featured Listing Card Styles */
 .featured-listings {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 20px;
 }
 
 .listing-card {
-    width: 90%;
-    margin: 10px 0;
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto;
     border: 1px solid #ddd;
     border-radius: 10px;
     overflow: hidden;
     background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .listing-card img {
@@ -101,18 +121,6 @@ header {
 
 .listing-card h3, .listing-card p {
     margin: 10px;
-}
-
-/* Featured Listings Carousel Styles */
-.carousel {
-    display: flex;
-    overflow-x: scroll;
-    width: 100%;
-}
-
-.carousel .listing-card {
-    flex: 0 0 80%;
-    margin-right: 10px;
 }
 
 /* Footer Styles */
