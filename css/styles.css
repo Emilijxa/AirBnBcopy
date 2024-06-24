@@ -34,9 +34,8 @@ header {
 }
 
 .search-icon {
-    fill: #000; /* Black icon */
-    width: 24px; /* Adjust the width for better visibility */
-    height: 24px; /* Adjust the height for better visibility */
+    color: #000; /* Black icon */
+    font-size: 24px; /* Adjust the size for better visibility */
     margin-right: 15px; /* Increase the margin for better spacing */
 }
 
@@ -80,15 +79,14 @@ header {
     background-color: white;
     padding: 10px;
     border-bottom: 1px solid #ddd;
-    position: relative; /* Ensure the category tabs stay at the top */
 }
 
 .scroll-container {
-    display: inline-block;
+    display: inline-flex; /* Use inline-flex to allow horizontal scrolling */
 }
 
 .category-item {
-    display: inline-block;
+    flex: 0 0 auto; /* Prevent items from shrinking */
     padding: 10px;
     cursor: pointer;
     font-size: 14px;
