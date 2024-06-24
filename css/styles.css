@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    padding-bottom: 60px;
 }
 
 header {
@@ -165,25 +166,42 @@ header {
 
 /* Footer Styles */
 footer {
-    background-color: #f7f7f7;
+    background-color: white;
     padding: 10px 0;
-    border-top: 1px solid #ddd;
-    text-align: center; 
+    border-top: 1px solid #eee;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000; 
 }
 
 footer nav ul {
-    display: inline-flex; 
+    display: flex; 
+    justify-content: center;
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-footer nav li {
-    padding: 5px 15px; 
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px;
 }
 
-footer nav a {
-    text-decoration: none;
-    color: #000;
+.nav-icon {
+    width: 24px; 
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.nav-text {
     font-size: 14px;
+    color: #717171; 
+}
+
+.nav-item:first-child .nav-text {
+    color: #FF385C; 
 }
