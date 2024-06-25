@@ -446,3 +446,44 @@ footer nav ul {
     text-decoration: underline;
     color: #000;
 }
+
+/* Footer Section Styles */
+.footer-section {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    margin-top: 0; /* Ensure no extra margin */
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+    display: flex; /* Align items in a row */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+}
+
+.footer-list li {
+    margin-right: 20px; /* Space between items */
+    font-size: 14px;
+    color: #717171;
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: #717171;
+}
+
+.footer-list a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+.footer-top-list {
+    margin-bottom: 10px; /* Space between top and middle lists */
+}
+
+.footer-middle-list {
+    margin-bottom: 10px; /* Space between middle and bottom lists */
+}
+
