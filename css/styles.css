@@ -265,6 +265,7 @@ footer nav ul {
 .inspiration-section {
     background-color: #f7f7f7;
     padding: 20px;
+    border-bottom: 1px solid #ddd;
 }
 
 .inspiration-title {
@@ -337,4 +338,111 @@ footer nav ul {
     color: #007bff;
     text-decoration: none;
     margin-top: 10px;
+}
+
+/* Support Section Styles */
+.support-section {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-top: 0;
+}
+
+.support-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.support-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.support-list li {
+    margin-bottom: 10px;
+}
+
+.support-list a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #717171;
+}
+
+.support-list a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+/* Hosting Section Styles */
+.hosting-section {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-top: 0; 
+    border-top: 1px solid #ddd; 
+}
+
+.hosting-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.hosting-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hosting-list li {
+    margin-bottom: 10px;
+}
+
+.hosting-list a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #717171;
+}
+
+.hosting-list a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+/* Airbnb Section Styles */
+.airbnb-section {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-top: 0; 
+    border-top: 1px solid #ddd; 
+}
+
+.airbnb-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.airbnb-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.airbnb-list li {
+    margin-bottom: 10px;
+}
+
+.airbnb-list a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #717171;
+}
+
+.airbnb-list a:hover {
+    text-decoration: underline;
+    color: #000;
 }
