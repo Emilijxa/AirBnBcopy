@@ -148,11 +148,8 @@ header {
     width: 100%;
     max-width: 600px;
     margin: 10px auto;
-    border: 1px solid #ddd;
-    border-radius: 10px;
     overflow: hidden;
     background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .listing-card img {
@@ -160,8 +157,44 @@ header {
     height: auto;
 }
 
-.listing-card h3, .listing-card p {
-    margin: 10px;
+.listing-info {
+    padding: 10px;
+}
+
+.listing-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    margin: 5px 0;
+    line-height: 1.2;
+}
+
+.listing-host {
+    font-size: 14px;
+    font-weight: normal;
+    color: #717171;
+    margin: 0 0 5px 0;
+    line-height: 1.2;
+}
+
+.listing-price {
+    font-size: 14px;
+    font-weight: normal;
+    color: #000;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.listing-status {
+    font-size: 14px;
+    font-weight: normal;
+    color: #000;
+    margin: 0; /* Reduce the margin to bring lines closer */
+    line-height: 1.2; /* Adjust line height to bring lines closer */
+}
+
+.price-bold {
+    font-weight: bold;
 }
 
 /* Footer Styles */
